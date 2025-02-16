@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
 newGame.addEventListener('click', function () {
     playerOneName.textContent = playerOneInput ? playerOneInput : 'Player 1';
     playerTwoName.textContent = playerTwoInput ? playerTwoInput : 'Player 2';
-    diceImage.src = `dice-1.png`; // Reset dice to 1
+    diceImage.src = `assets/images/dice-1.png`; // Reset dice to 1
     playerOneTotalScore.textContent = 0;
     playerTwoTotalScore.textContent = 0;
     playerOneCurrentScore.textContent = 0;
@@ -52,7 +52,7 @@ newGame.addEventListener('click', function () {
 let currentScore = 0;
 rollDice.addEventListener('click', function () {
     let randomNumber = Math.floor((Math.random() * 6) + 1); // Generate number between 1-6
-    diceImage.src = `images/dice-${randomNumber}.png`; // Update dice image
+    diceImage.src = `assets/images/dice-${randomNumber}.png`; // Update dice image
 
     if (randomNumber !== 1) {
         currentScore += randomNumber; // Add dice value to current score
