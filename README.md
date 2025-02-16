@@ -49,7 +49,7 @@ JavaScript (ES6+) – Game logic & interactivity
 
 Clone this repository:
 
-git clone https://github.com/ritikSrivastav//roll-and-hold.git
+git clone https://github.com/ritikSrivastav/roll-and-hold.git
 
 Open index.html in your browser.
 
