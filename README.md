@@ -24,7 +24,7 @@ The winner's name is displayed with a Congratulations! message.
 
 📁 Folder Structure
 
-/pig-game
+/Roll-and-Dice
 │── /assets
 │ │── /images (For all images)
 │── /css
